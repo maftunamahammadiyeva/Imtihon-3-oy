@@ -49,7 +49,7 @@ let salaries = {
 console.log(sumSalaries(salaries));
 
 // 4 - masala;
-const arrays = [1, 2, 3, 4, 5, 4, 5];
+const arrays = [1, 2, 3, 4, 5, 4, 5,];
 function calcNumbers(numb) {
   let array = [];
   let oddNumber = 0;
@@ -60,7 +60,7 @@ function calcNumbers(numb) {
     } else if (i % 2 !== 0) {
       evenNumber += numb[i];
     } else if ((i === null) & (i === undefined)) {
-      [];
+      array.push([])
     }
   }
   array.push(oddNumber, evenNumber);
